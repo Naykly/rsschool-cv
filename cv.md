@@ -5,7 +5,7 @@
 - **Name:** Andrey Menshikov
 - **Date of birth:** 2 November 2002
 - **Phone:** +1 (645) 123-45-67
-- **Emai:** yuang.li@mail.ru
+- **Email:** yuang.li@mail.ru
 
 ## Summary
 
