@@ -91,6 +91,10 @@ pre {
     background-color: darkgrey;
 }
 
+code {
+ background-color: darkgrey;
+}
+
 footer a {
   color: #ffcc00;
   text-decoration: none;
