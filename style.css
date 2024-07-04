@@ -97,6 +97,9 @@ pre {
 code {
  background-color: darkgrey;
 }
+.footer_links {
+  width: 100px;
+}
 
 footer a {
   color: #ffcc00;
