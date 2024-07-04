@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Andrey</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="resume">
 <header>
     <div class="photo">
-        <img src="твоя-фотография.jpg" alt="Andrey">
+        <img src="img/my_photo.jpg" alt="Andrey">
     </div>
 <h1>Andrey Menshikov</h1>
 <p>IT — developer</p>
@@ -18,7 +18,7 @@
 <section class="contact-info">
 <h2>Contacts</h2>
 <ul>
-<li>Email:yuang.li@mail.ru</li>
+<li>Email: yuang.li@mail.ru</li>
 <li>Телефон: +1234567890</li>
 </ul>
 </section>
@@ -30,6 +30,32 @@
 <li>RenPy</li>
 </ul>
 </section>
+<section class="Code Example">
+<h2>Code example: </h2>
+<pre>
+    <code>
+        def is_prime(num):
+    """Проверяет, является ли число простым."""
+    if num <= 1:
+        return False
+    if num == 2:
+        return True
+    if num % 2 == 0:
+        return False
+    for i in range(3, int(num**0.5) + 1, 2):
+        if num % i == 0:
+            return False
+    return True
+# Example of using the function
+print(is_prime(29))  # True
+print(is_prime(15))  # False
+    </code>
+</pre>
+</section>
+<footer>
+    <p>&copy; 2023 Твоё Имя. Все права защищены.</p>
+    <p>Для связи: <a href="mailto:твойemail@example.com">твойemail@example.com</a></p>
+</footer>
 </div>
 </body>
 </html>
