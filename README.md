@@ -1,1 +1,1 @@
-# https://Naykly.github.io/rsschool-cv/
+https://Naykly.github.io/rsschool-cv/
