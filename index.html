@@ -30,6 +30,27 @@
 <li>RenPy</li>
 </ul>
 </section>
+<section class="Code Example">
+<h2>Code example: </h2>
+    <code>
+        
+        def is_prime(num):
+    """Проверяет, является ли число простым."""
+    if num <= 1:
+        return False
+    if num == 2:
+        return True
+    if num % 2 == 0:
+        return False
+    for i in range(3, int(num**0.5) + 1, 2):
+        if num % i == 0:
+            return False
+    return True
+# Example of using the function
+print(is_prime(29))  # True
+print(is_prime(15))  # False
+    </code>
+</section>
 </div>
 </body>
 </html>
