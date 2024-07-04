@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: aliceblue;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/derevia_les_vid_sverhu_117396_3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
