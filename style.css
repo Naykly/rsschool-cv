@@ -89,6 +89,9 @@ footer {
 footer p {
   margin: 0;
 }
+.footer_links {
+  width: 100px;
+}
 
 pre {
     background-color: darkgrey;
